@@ -1,0 +1,21 @@
+Vue-1208
+根据我的调查研究，Vue是一种框架（具体Vue的概念、历史我就不在这里过多赘述了，毕竟不是教程，只是自己的学习日记，写日记之前我已经在网上看过相关材料了。），所以需要下载后用标签（script）来引用。
+所以学习的第一课，先下载Vuejs。
+vuejs不是一个exe或者dmg什么的，需要逐步安装
+安装清单：
+1、node
+2、webpack（不建议全局安装，此处跳过）
+3、vue
+4、vue-cli
+简单粗暴，作为尊贵的MacBook用户，咱们必须要用brew来安装。
+命令行：brew install node  ##卡在了upgrading homebrew阶段，正在想办法解决的时候突然下载起来了。
+#####安装成功了，接下来安装vue，因为webpack推荐在指定项目下安装，就先不安装了。
+普通安装：
+npm install vue  ***在vue后面加上@X.X.X就可以安装指定版本，在这里我选的是全局安装：npm install --global vue
+安装成功会显示vue的版本号，我这里是vue@2.6.12。这里必须要更新，不然用vue cli的时候你会吐血的，所以我们使用命令：
+npm install vue@3.3。3
+接下来安装vue-cli：npm install -g @vue/cli
+安装了一段时间，接下来输入命令查看版本号，有了版本号就说明安装成功了：vue --version
+显示vue/cli@4.5.9 安装成功了。
+
+安装完已经晚上11点了，准备洗洗睡，明天开始创建第一个项目，并开始练习语法。
