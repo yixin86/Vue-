@@ -1,0 +1,30 @@
+//今天来开始第一个实例项目。
+//Vue.js 的核心是一个允许你采用简洁的模板语法来声明式的将数据渲染进 DOM 的系统
+//接下来开始生成应用 
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>javascript</title>
+<script src="https://unpkg.com/vue/dist/vue.js" rel="external nofollow" ></script>
+<script>
+    window.onload = function(){
+        var script = document.createElement("script");
+        script.setAttribute("type","text/javascript");
+        script.src = "http://common.cnblogs.com/script/index.js";
+        document.getElementsByTagName("head")[0].appendChild(script);  
+    }
+</script>
+<script src="https://unpkg.com/vue"></script>
+
+<div id="app">
+  <p>{{ message }}</p>
+</div>
+new Vue({
+  el: '#app',
+  data: {
+    message: '学vue的第一个实例'
+  }
+})
+
+</head>
+
+//不进行补全了，这里会输出 ‘学Vue的第一个实例’
